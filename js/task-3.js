@@ -1,9 +1,9 @@
 function filterArray(numbers, value) {
     let num = [];
-    for (const number of numbers) {
-       
-        if (number > value) {
-            num.push(number);
+    for (let i = 0; i < numbers.length; i++) {
+
+        if (numbers[i] > value) {
+            num.push(numbers[i]);
         }
     }
     return num;
